@@ -5,10 +5,10 @@ import 'package:listmovie/core/constant/app_text_style.dart';
 import 'package:listmovie/core/constant/res_string.dart';
 import 'package:listmovie/features/screens/dashboard_fragment/Data_layer/popular_movie_model.dart';
 import 'package:listmovie/features/screens/dashboard_fragment/Data_layer/popular_movie_repository.dart';
-import 'package:listmovie/features/screens/detail_page.dart';
+import 'package:listmovie/features/screens/detail_page/detail_page.dart';
 import 'package:listmovie/utils/pref_utils.dart';
 
-import '../../common/widgets/custom_card.dart';
+import '../../../common/widgets/custom_card.dart';
 
 class MovieSearch extends SearchDelegate<String> {
   @override

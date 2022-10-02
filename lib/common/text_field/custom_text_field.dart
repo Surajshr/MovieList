@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:listmovie/features/screens/detail_page.dart';
+import 'package:listmovie/features/screens/detail_page/detail_page.dart';
 
-import '../../features/screens/search_deligate.dart';
+import '../../features/screens/search_deligate/search_deligate.dart';
 
 class CustomTextField extends StatefulWidget {
    CustomTextField(
